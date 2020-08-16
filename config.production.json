@@ -1,13 +1,13 @@
 {
   "url": "https://motive-se.herokuapp.com",
   "database": {
-    "client": "mysql",
+    "client": "postgresql",
     "connection": {
-      "host": "motivese-1.cdwx4jhaysda.sa-east-1.rds.amazonaws.com",
-      "port": 3306,
-      "user": "ronery",
-      "password": "qd4TmTg2roFcaLXidlz4",
-      "database": "motivese-1"
+      "host": "ec2-107-20-104-234.compute-1.amazonaws.com",
+      "port": 5432,
+      "user": "nmrbxxdmwhfins",
+      "password": "e68d2007c89527fe98b08902ca5df61336c9ace3a8e28dce8663ef82e90eb504",
+      "database": "d3j9sjn96rra8s"
     },
     "pool": {
       "min": 2,
