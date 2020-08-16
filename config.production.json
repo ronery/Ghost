@@ -44,13 +44,12 @@
     "useStructuredData": true
   },
   "storage": {
-    "active": "s3",
-    "s3": {
+    "active": "ghost-s3",
+    "ghost-s3": {
       "accessKeyId": "AKIAYBTG47OP5TTN2FXW",
       "secretAccessKey": "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",
       "region": "sa-east-1",
-      "bucket": "motive-se",
-      "assetHost": "https://motive-se.s3-sa-east-1.amazonaws.com"
+      "bucket": "motive-se"
     }
   }
 }
