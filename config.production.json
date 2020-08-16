@@ -1,0 +1,56 @@
+{
+  "url": "https://motive-se.herokuapp.com",
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "motivese-1.cdwx4jhaysda.sa-east-1.rds.amazonaws.com",
+      "port": 3306,
+      "user": "ronery",
+      "password": "qd4TmTg2roFcaLXidlz4",
+      "database": "motivese-1"
+    },
+    "pool": {
+      "min": 2,
+      "max": 4
+    }
+  },
+  "server": {
+    "host": "0.0.0.0"
+  },
+  "mail": {
+    "transport": "SMTP",
+    "options": {
+        "service": "Mailgun",
+        "host": "smtp.mailgun.org",
+        "port": 587,
+        "secureConnection": true,
+        "auth": {
+            "user": "postmaster@sandbox470cd1c0280f43a48fdb2af15ed50432.mailgun.org",
+            "pass": "50e60becee41c15b01765f83ddf788c5-07e45e2a-e56dc88a"
+        }
+    }
+  },
+  "logging": {
+    "level": "info",
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "privacy": {
+    "useUpdateCheck": false,
+    "useGravatar": false,
+    "useRpcPing": false,
+    "useStructuredData": true
+  },
+  "storage": {
+    "active": "s3",
+    "s3": {
+      "accessKeyId": "AKIAYBTG47OP5TTN2FXW",
+      "secretAccessKey": "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",
+      "region": "sa-east-1",
+      "bucket": "motive-se",
+      "assetHost": "https://motive-se.s3-sa-east-1.amazonaws.com"
+    }
+  }
+}
